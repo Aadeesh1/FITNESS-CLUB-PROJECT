@@ -86,7 +86,7 @@
   text-decoration: none;
 }
 
-.joinus_button_nav {
+.sign_up_button {
   font-size: 1.2vw;
   padding: 0.5% 2%;
   border: none;
@@ -160,11 +160,12 @@
 
 .marquee {
   display: flex;
+  overflow: hidden;
   background-color: white;
 }
 
 .marquee-container {
-  width: 105%;
+  width: 100%;
   align-content: center;
   display: flex;
   animation: marquee1 30s linear infinite;
